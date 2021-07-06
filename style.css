@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1,h2,h3,h4{
+    font-family: 'Merriweather', serif;
+    color:#68BB59 ,#1F3972,#4b75cf,#1DB7AB,#FEA70C,#FC2B5B;
+
+}
+body p, a{
+    font-family: 'Karla', sans-serif;
+
+}
+/*--nav----*/
+header{
+    background-image: url(images/Untitled\ design.png);
+    height: 100vh;
+}
+header .nav{
+    display: flex;
+    padding: 2% 2%;
+    height: 20%;
+}
+.nav .logo{
+    width: 15%;
+    padding-left: 3%;
+}
+.nav .menu {
+    width:70%;
+    text-align: right;
+}
+.nav .btn{
+    width: 15%;
+    padding-left: 2%;
+}
+.nav ul.menu li{
+    display: inline-block;
+    padding:0 3%;
+}
+.nav ul.menu li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav .btn a{
+    background: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #1F3972;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+/*-----hero---*/
+
+.hero{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+}
+.hero-text, .hero-img{
+    width:50%;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-text{
+    padding: 0 5%;
+    margin-top: 5%;
+}
+.hero-text p{
+    margin-bottom: 7%;
+    width:70%;
+}
+.hero-text h1{
+    margin-bottom: 4%;
+}
+.hero-btn{
+    background-image: linear-gradient(90deg,#1f3972,#1DB7AB);
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-right: 4%;
+}
+.hero-btn2{
+    padding: 12px 25px;
+    border: 1px solid #68BB59;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 6px;
+}
+/*---expect---*/
+.expect{
+    background-image: url(images/Untitled\ design\ \(3\).png);
+    height: 90vh;
+    background-position: left;
+    padding: 5%;
+}
+.expect-area{
+    display: flex;
+}
+.expect-img{
+    width: 50%;
+}
+.expect-img img{
+    width: 100%;
+}
+.expect-box{
+    width:20%;
+}
+.line{
+    background-color: #fff;
+    width:10%;
+    height: 3px;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+.expect-img h1{
+    margin-left: 20%;
+    color: #fff;
+    margin-bottom: 4%;
+}
+.expect-box .box-1, .box-2{
+    width:70%;
+    padding: 12% 8%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+.expect-box .box-1 h2, .box-2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+.expect-box .box-1 p,.box-2 p{
+    color: black;
+    font-weight: 600;
+}
+.expect-box .box-2{
+    margin-top: 15%;
+}
+.fst-box-line{
+    margin-top: 4%;
+}
+.snd-box-line{
+    margin-top: 8%;
+}
+.fst-box-line{
+    margin-top: 4%;
+}
+.trd-box-line{
+    margin-top: 14%;
+}
+
+/*--company--*/
+.company-area{
+    background-image: url(images/Untitled\ design\ \(2\).png);
+    background-position: right;
+    height: 80vh;
+    padding: 5%;
+}
+.company{
+    display: flex;
+}
+.company-text{
+    width: 50%;
+}
+.company-box{
+    width: 25%;
+}
+.company-line{
+    background-color: #1f3972;
+    width:12%;
+    height: 4px;
+    margin-bottom: 4%;
+}
+.company-text h1{
+    width: 60%;
+    margin-bottom: 4%;
+}
+.company-text p{
+    width: 80%;
+    margin-bottom: 8%;
+}
+.company-box{
+    text-align: center;
+    background-color: #fff;
+    padding: 10% 3%;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.company-box h3,h4{
+    margin-bottom: 4%;
+}
+.company-box-1{
+    margin: 5% 2% 10% 5%;
+}
+.company-box-2{
+    margin: 10% 5% 5% 2%;
+}
+/*---contact--*/
+.contact{
+    height: 70vh;
+    background-image: linear-gradient(140deg, #1F3972, #68BB59);
+    padding: 7% 5%;
+}
+.contact-area{
+    display: flex;
+}
+.contact-text{
+    width: 45%;
+    color: white;
+    padding-right: 8%;
+    height: 100%;
+    margin: auto;
+}
+.contact-text h1{
+    margin-bottom: 4%;
+}
+.contact-text p{
+    margin-bottom: 8%;
+}
+.contact-btn{
+    padding: 12px 25px;
+    border: 1px solid #68BB59;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+.contact-form{
+    width: 55%;
+}
+.contact-form input, textarea{
+    display: block;
+    width:67%;
+    padding: 2% 5%;
+    margin: 3%;
+    border-radius: 8px;
+    border: none;
+    background-color: #ddd;
+}
+.form-btn{
+    background-image: linear-gradient(90deg,#1f3972,#1DB7AB);
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    width: 20%;
+    margin-left: 3%;
+}
